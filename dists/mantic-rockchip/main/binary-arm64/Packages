@@ -22,46 +22,45 @@ Description: ALSA Use Case Manager configuration files
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 
 Package: buzztv
-Version: 1.0.0+3
+Version: 1.0.0+6
 Architecture: arm64
 Essential: no
 Maintainer: mvas
-Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-rtsp,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,gstreamer1.0-pipewire
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.0+3_arm64.deb
-Size: 21228092
-MD5sum: b5e0cf928ed11e7f70a11bcfcec9842b
-SHA1: 5dfde600097eb48a0b538edc4cc098435fe2c955
-SHA256: 361d5ee44d273a34f0fbb80484766cef5369d45a30bc40f02d90917b0130b536
+Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.0+6_arm64.deb
+Size: 21227688
+MD5sum: 8b243e48f08f64457a419648318cb994
+SHA1: db7b7fd52dc43ebd149271357eb2a3f8b2e3a7b6
+SHA256: 2fd5258e2de79fd1c89a668e29039a722068954cdbfedf8fe71c99fd8b594c8b
 Priority: optional
 Description: BuzzTV IPTV player
 
 Package: buzztv-dsw
-Version: 1.0.3-1
-Architecture: arm64
+Version: 0.0.1-1
+Architecture: all
 Maintainer: Stan Vlasic <stan@buzztv.com>
-Installed-Size: 10
-Depends: weston
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-dsw_1.0.3-1_arm64.deb
-Size: 10264140
-MD5sum: cdb51f9aaebfd0285e4301fca597bc40
-SHA1: de26f4b6ff9e9364cbf8802ecd8c086f7d4b676e
-SHA256: c0f288bcf578ad58560fb84d918f57a27882dd5f59cce6ccadaff81e454ee243
-Section: utils
+Installed-Size: 32783
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-dsw_0.0.1-1_all.deb
+Size: 11309688
+MD5sum: 781de8b653134f96e06e0e7c9e99700d
+SHA1: 7989629d14e91bf4b3cd641689fab4fd92462494
+SHA256: 2fc1bbcaea75a076b87fe10f52795d2a9c0b440d526c7155715c607bdab3e355
+Section: misc
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-dsw
 Description: BuzzTV Device Setup Wizard
 
 Package: buzztv-ota-tools
-Version: 1.0.4-1
+Version: 1.0.0-1
 Architecture: all
 Maintainer: Corey Moyer <cronmod.dev@gmail.com>
-Installed-Size: 10
+Installed-Size: 11
 Depends: coreutils, curl, tar
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.4-1_all.deb
-Size: 1448
-MD5sum: efcba519fa604880e74997398b185fc4
-SHA1: f9ff32d62f95127b596e1a4eedd00b669b65d8a0
-SHA256: 7a0253cacd66a8c3bb5a459544245c4a114d66a9b29a1bb0828ed8b5080a45be
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.0-1_all.deb
+Size: 1666
+MD5sum: c4c3333ff0b26af4ccd0d2474fef7fe7
+SHA1: f4fa8e0d9fff3ba923b7c0018beb3047e800fe90
+SHA256: df7c855816e7b6bae607e475ae199ec33d07191a0bc19e16c117e26d8a36d468
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
@@ -109,10 +108,10 @@ Installed-Size: 2535
 Depends: libavcodec60 (>= 7:6.0), libavdevice60 (>= 7:6.0), libavfilter9 (>= 7:6.0), libavformat60 (>= 7:6.0), libavutil58 (>= 7:6.0), libc6 (>= 2.35), libpostproc57 (>= 7:6.0), libsdl2-2.0-0 (>= 2.0.12), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0)
 Suggests: ffmpeg-doc
 Filename: dists/mantic-rockchip/main/binary-arm64/ffmpeg_6.0-6ubuntu1_arm64.deb
-Size: 1860034
-MD5sum: 122d3ab821334ee6b63add710db16c97
-SHA1: 0ae73b29d24d36d0762508a64c99ddb894709d5d
-SHA256: 5b31d28df52ac84637f8237a574ea7983f9b4b28ec6dc658d5cbb77f1b67e508
+Size: 1859994
+MD5sum: 59229bee0fa5840c9a4a83e076bd2401
+SHA1: 7d5c350b9b03758873b0ca703732a3fcf6abcb7d
+SHA256: 782d78cd44e1ad4e4a8c9942f33d85852ef5daccad6318962dffbd3e2b0a6495
 Section: video
 Priority: optional
 Multi-Arch: foreign
@@ -134,13 +133,13 @@ Source: ffmpeg
 Version: 7:6.0-6ubuntu1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 35376
+Installed-Size: 35453
 Depends: libjs-jquery, libjs-bootstrap
 Filename: dists/mantic-rockchip/main/binary-arm64/ffmpeg-doc_6.0-6ubuntu1_all.deb
-Size: 2041708
-MD5sum: eea4468c5fe8d5971771cc1004ed71d8
-SHA1: 1d7fc4fbd6c2bf13e9962ea57c1e11775f1007c8
-SHA256: c9b4569787836ca499eb1f03a45fd6074f11492468afeb797da5ed7a6c36ab91
+Size: 2048450
+MD5sum: 506643b87585c6368043713f7cfeb978
+SHA1: ae3be746730543b7826a5780ba3c872df93c361e
+SHA256: ebc5913aa858642a96aa94d403042a9913a2c11b408c7f680f4aa978221ad74a
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -155,40 +154,6 @@ Description: Documentation of the FFmpeg multimedia framework
  framework including the API documentation created by doxygen and the manpages
  for the libraries.
 
-Package: gir1.2-gst-plugins-bad-1.0
-Source: gst-plugins-bad1.0
-Version: 1.22.4-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 322
-Depends: gir1.2-freedesktop (>= 0.9.12-4~), gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gst-plugins-base-1.0 (>= 1.22.0), gir1.2-gstreamer-1.0 (>= 1.22.0), libgstreamer-plugins-bad1.0-0 (>= 1.22.4)
-Filename: dists/mantic-rockchip/main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.22.4-1ubuntu1_arm64.deb
-Size: 79858
-MD5sum: e442b09bd327269f7cad50b5f79802aa
-SHA1: ff1f0f17fad22a44c6a56547fae7a34d5e229fdd
-SHA256: 5270d7a4cefb6d56ce611ef76a20f5a24c0743f9f394f9ae7f8c6a7bc547ead0
-Section: introspection
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GObject introspection data for the GStreamer libraries from the "bad" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
- to the rest. They might be close to being good quality, but they're missing
- something - be it a good code review, some documentation, a set of tests, a
- real live maintainer, or some actual wide use.
- .
- This package contains introspection data for the GStreamer libraries from
- the "bad" set. It can be used by packages using the GIRepository format to
- generate dynamic bindings.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-
 Package: gir1.2-gst-plugins-base-1.0
 Source: gst-plugins-base1.0
 Version: 1.22.6-1
@@ -197,10 +162,10 @@ Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debi
 Installed-Size: 456
 Depends: gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gstreamer-1.0 (>= 1.22.0), libgstreamer-gl1.0-0 (>= 1.20.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0)
 Filename: dists/mantic-rockchip/main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.22.6-1_arm64.deb
-Size: 113496
-MD5sum: 68ca71bbbfcc45b933613dd11180b8a9
-SHA1: e12269296a815cc35411d2d947bf0b75d641e0fb
-SHA256: bd0fe45387414d5ad37f821d35d8775076f9cef68dcf9da7ec3891f3feb6ed6b
+Size: 113408
+MD5sum: 7eb525663cadf4783b4d571e76f81266
+SHA1: f9fe185547921cda8bbbf1f87adad3803c5e3030
+SHA256: f056fdbbbbeae8037e59d0879a2ef3f87384f591b54e163ac837f95b6f55249f
 Section: introspection
 Priority: optional
 Multi-Arch: same
@@ -208,36 +173,6 @@ Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer Plugins Base library
  This package contains introspection data for the GStreamer Plugins Base
  library.
- .
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- It can be used by packages using the GIRepository format to generate
- dynamic bindings.
-
-Package: gir1.2-gstreamer-1.0
-Source: gstreamer1.0
-Version: 1.22.5-1
-Architecture: arm64
-Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 354
-Depends: gir1.2-glib-2.0 (>= 0.9.12-4~), libgstreamer1.0-0 (>= 1.22.0)
-Filename: dists/mantic-rockchip/main/binary-arm64/gir1.2-gstreamer-1.0_1.22.5-1_arm64.deb
-Size: 89546
-MD5sum: 14825947bebe523bcc7207c03efdc651
-SHA1: ffff5646a09693e6c49226e8e021642c10413382
-SHA256: 7f202b10256717d86a673978625ec8a11c230734eb2cc358dcb51741ca9ceabc
-Section: introspection
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GObject introspection data for the GStreamer library
- This package contains introspection data for the GStreamer streaming media
- framework.
  .
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -291,10 +226,10 @@ Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
 Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-gl_1.22.6-1_arm64.deb
-Size: 119752
-MD5sum: 72acb945dc810cca8aa45a85bc6dd6bf
-SHA1: 78d74c3d527b959e744af2050cd59f74b5e60c40
-SHA256: b765abb577fb5000d98fe6049ab12d57d62ff9ef5cd9d8e65da9e242f7d933c1
+Size: 119746
+MD5sum: a41c55be0afd6a19ba17d6113a6da74e
+SHA1: 822966b244eda6ebc594c450b581d40e474d9fdb
+SHA256: 19a025c5160922f1f91ef954780af4ab5167090e4a7a38157741c3e91031384f
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -311,147 +246,6 @@ Description: GStreamer plugins for GL
 Gstreamer-Elements: glalpha, glcolorbalance, glcolorconvert, glcolorscale, gldeinterlace, gldifferencematte, gldownload, gleffects, gleffects_blur, gleffects_bulge, gleffects_fisheye, gleffects_glow, gleffects_heat, gleffects_identity, gleffects_laplacian, gleffects_lumaxpro, gleffects_mirror, gleffects_sepia, gleffects_sin, gleffects_sobel, gleffects_square, gleffects_squeeze, gleffects_stretch, gleffects_tunnel, gleffects_twirl, gleffects_xpro, gleffects_xray, glfilterapp, glfilterbin, glfiltercube, glfilterglass, glimagesink, glimagesinkelement, glmixerbin, glmosaic, gloverlay, gloverlaycompositor, glshader, glsinkbin, glsrcbin, glstereomix, glstereosplit, gltestsrc, gltransformation, glupload, glvideoflip, glvideomixer, glvideomixerelement, glviewconvert
 Gstreamer-Version: 1.22
 
-Package: gstreamer1.0-gtk3
-Source: gst-plugins-good1.0
-Version: 1.22.6-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 133
-Depends: libc6 (>= 2.17), libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libgtk-3-0 (>= 3.16.2)
-Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
-Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
-Provides: gstreamer1.0-videosink
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-gtk3_1.22.6-1ubuntu1_arm64.deb
-Size: 33136
-MD5sum: a71a54f32688a1aa4c72ad4cbeb498f1
-SHA1: cbf239fab98f8365014c8685b7963efd2c91bcc3
-SHA256: 2f3b5dcdee8347fae5a6be9fe4d02670e6815beb886c93d3eac1f3a0330e372d
-Section: graphics
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer plugin for GTK+3
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains the GStreamer plugin for GTK+3.
-Gstreamer-Elements: gtkglsink, gtksink
-Gstreamer-Version: 1.22
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-
-Package: gstreamer1.0-opencv
-Source: gst-plugins-bad1.0
-Version: 1.22.4-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 347
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.68), libgstreamer-opencv1.0-0 (= 1.22.4-1ubuntu1), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libopencv-calib3d406 (>= 4.6.0+dfsg), libopencv-contrib406 (>= 4.6.0+dfsg), libopencv-core406 (>= 4.6.0+dfsg), libopencv-features2d406 (>= 4.6.0+dfsg), libopencv-imgcodecs406 (>= 4.6.0+dfsg), libopencv-imgproc406 (>= 4.6.0+dfsg), libopencv-objdetect406 (>= 4.6.0+dfsg), libopencv-video406 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), gstreamer1.0-plugins-base, libgstreamer-plugins-bad1.0-0 (= 1.22.4-1ubuntu1)
-Recommends: opencv-data
-Conflicts: gstreamer1.0-plugins-bad (<< 1.17.2~)
-Replaces: gstreamer1.0-plugins-bad (<< 1.17.2~)
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-opencv_1.22.4-1ubuntu1_arm64.deb
-Size: 92306
-MD5sum: f01394c5b80c10736e31386a8b96d50c
-SHA1: 64259c2aeeeb3578d2ab1b2be9a1e087a4d157cf
-SHA256: f6023d7d4a2c11ebad997bf9961ac26fe302a2fdadbbe8b95136720b2bb5f7f8
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer OpenCV plugins
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
- to the rest. They might be close to being good quality, but they're missing
- something - be it a good code review, some documentation, a set of tests, a
- real live maintainer, or some actual wide use.
- .
- This package contains the OpenCV plugins.
-Gstreamer-Elements: cameracalibrate, cameraundistort, cvdilate, cvequalizehist, cverode, cvlaplace, cvsmooth, cvsobel, cvtracker, dewarp, disparity, edgedetect, faceblur, facedetect, grabcut, handdetect, motioncells, opencvtextoverlay, retinex, segmentation, skindetect, templatematch
-Gstreamer-Version: 1.22
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-
-Package: gstreamer1.0-plugins-bad
-Source: gst-plugins-bad1.0
-Version: 1.22.4-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 13879
-Depends: libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.34), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3-gnutls (>= 7.55.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdirectfb-1.7-7 (>= 1.7.7), libdrm2 (>= 2.4.71), libdvdnav4 (>= 4.1.3), libdvdread8 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.77.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-bad1.0-0 (= 1.22.4-1ubuntu1), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer-plugins-good1.0-0 (>= 1.22.6), libgstreamer1.0-0 (>= 1.22.0), libgtk-3-0 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29 (>= 3.1.6), libjson-glib-1.0-0 (>= 1.5.2), libkate1 (>= 0.4.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.1-0 (>= 1:2.1.0+debian), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0 (>= 1:2.1.0+debian), libmplex2-2.1-0 (>= 1:2.1.0+debian), libneon27, libnettle8 (>= 3), libopenal1 (>= 1:1.14), libopenexr-3-1-30 (>= 3.1.5), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.2), libsrtp2-1 (>= 2.0.0+20170516), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.2.4), libwebrtc-audio-processing1, libwildmidi2 (>= 0.2.3), libx11-6, libx265-199 (>= 3.5), libxml2 (>= 2.9.0), libzbar0 (>= 0.10), libzvbi0 (>= 0.2.35), libzxing2 (>= 1.4.0), gstreamer1.0-plugins-base (>= 1.22.0), gstreamer1.0-plugins-good (>= 1.22.0)
-Suggests: frei0r-plugins
-Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
-Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad_1.22.4-1ubuntu1_arm64.deb
-Size: 2645508
-MD5sum: 781e059392bb243c587cdd19db20083b
-SHA1: 693f429badfb8141f958cf95600cace4e5a6400a
-SHA256: 1a7888402ca827fbd9594dfd0c7e0cf6ad55859241c932f2da62f872d048f072
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer plugins from the "bad" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
- to the rest. They might be close to being good quality, but they're missing
- something - be it a good code review, some documentation, a set of tests, a
- real live maintainer, or some actual wide use.
-Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; subtitle/x-kate; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8, codec-alpha=(boolean)true; video/x-vp9
-Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autovideoconvert, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, cc708overlay, cccombiner, ccconverter, ccextractor, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h264parse, h264timestamper, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jp2kdecimator, jpeg2000parse, kaleidoscope, katedec, kateenc, kateparse, katetag, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, stretch, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, uritranscodebin, uvch264mjpgdemux, uvch264src, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, vmncdec, voaacenc, voamrwbenc, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webrtcdsp, webrtcechoprobe, webvttenc, wildmididec, x265enc, y4mdec, zbar, zebrastripe, zxing
-Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-kate; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/aptx; audio/aptx-hd; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-ldac, channel-mode=(string){ mono, dual, stereo }; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], num-stripes=(int)[ 1, 2147483647 ], alignment=(string){ frame, stripe }, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc-striped, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }, num-stripes=(int)[ 2, 2147483647 ], stripe-height=(int)[ 1, 2147483647 ]; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; subtitle/x-kate; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 192, 188 }; video/x-av1, stream-format=(string)obu-stream, alignment=(string)tu; video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ constrained-baseline, baseline, main, constrained-high, high }; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main, main-still-picture, main-intra, main-444, main-444-intra, main-444-still-picture, main-10, main-10-intra, main-422-10, main-422-10-intra, main-444-10, main-444-10-intra, main-12, main-12-intra, main-422-12, main-422-12-intra, main-444-12, main-444-12-intra }; video/x-ms-asf, parsed=(boolean)true
-Gstreamer-Uri-Sinks: rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, srt
-Gstreamer-Uri-Sources: dvb, dvd, http, https, rfb, rist, rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, sdp, srt, testbin
-Gstreamer-Version: 1.22
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-
-Package: gstreamer1.0-plugins-bad-apps
-Source: gst-plugins-bad1.0
-Version: 1.22.4-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 150
-Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.68), libgstreamer-plugins-bad1.0-0 (>= 1.22.4), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), gstreamer1.0-plugins-bad (= 1.22.4-1ubuntu1)
-Conflicts: pitivi (<< 0.9999)
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.22.4-1ubuntu1_arm64.deb
-Size: 27266
-MD5sum: 79081df26bf5e39a2c484329347ab89b
-SHA1: 37e85f0c59b848f5571e7614106171d63b1861aa
-SHA256: 603ba926ec6f2c00944b473e7eabd8aa6e88a6fa15b65323b951f3da10fbe720
-Section: utils
-Priority: optional
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer helper programs from the "bad" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains helper programs from the "bad" set, a set of
- plug-ins that aren't up to par compared to the rest. They might be
- close to being good quality, but they're missing something - be it a
- good code review, some documentation, a set of tests, a real live
- maintainer, or some actual wide use.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-
 Package: gstreamer1.0-plugins-base
 Source: gst-plugins-base1.0
 Version: 1.22.6-1
@@ -464,10 +258,10 @@ Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
 Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-plugins-base_1.22.6-1_arm64.deb
-Size: 679892
-MD5sum: f77be6f45a97cffc932e2af60ff97adb
-SHA1: 434f5381afd8174a48d0a72b12f9cbddd5ad73af
-SHA256: a86c1e1671d1e1b810f4f78fab52a08425053162422edfa70af231373f2594fa
+Size: 677822
+MD5sum: 59039723cf4b5932184a9dfbb27128d9
+SHA1: 7a8f28c3c6d2a167a4cb7e2cdb0d46761b5fd4bb
+SHA256: 4fc7432e788f255e7a3462fc1b5db5b62833c1422cc17f43ce46ee83b201bb07
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -482,7 +276,7 @@ Description: GStreamer plugins from the "base" set
  .
  This package contains the GStreamer plugins from the "base" set, an
  essential exemplary set of elements.
-Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ ABGR64_LE, BGRA64_LE, AYUV64, ARGB64_LE, ARGB64, RGBA64_LE, ABGR64_BE, BGRA64_BE, ARGB64_BE, RGBA64_BE, GBRA_12LE, GBRA_12BE, Y412_LE, Y412_BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, RGB10A2_LE, BGR10A2_LE, Y410, GBRA, ABGR, VUYA, BGRA, AYUV, ARGB, RGBA, A420, AV12, Y444_16LE, Y444_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, Y210, v210, UYVP, I420_10LE, I420_10BE, P010_10LE, NV12_10LE32, NV12_10LE40, NV16_10LE40, P010_10BE, NV12_10BE_8L128, Y444, RGBP, GBR, BGRP, NV24, xBGR, BGRx, xRGB, RGBx, BGR, IYU2, v308, RGB, Y42B, NV61, NV16, VYUY, UYVY, YVYU, YUY2, I420, YV12, NV21, NV12, NV12_8L128, NV12_64Z32, NV12_4L4, NV12_32L32, NV12_16L32S, Y41B, IYU1, YVU9, YUV9, RGB16, BGR16, RGB15, BGR15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
+Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ ABGR64_LE, BGRA64_LE, AYUV64, ARGB64_LE, ARGB64, RGBA64_LE, ABGR64_BE, BGRA64_BE, ARGB64_BE, RGBA64_BE, GBRA_12LE, GBRA_12BE, Y412_LE, Y412_BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, RGB10A2_LE, BGR10A2_LE, Y410, GBRA, ABGR, VUYA, BGRA, AYUV, ARGB, RGBA, A420, AV12, Y444_16LE, Y444_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, Y210, v210, UYVP, I420_10LE, I420_10BE, P010_10LE, NV12_10LE32, NV12_10LE40, P010_10BE, NV12_10BE_8L128, Y444, RGBP, GBR, BGRP, NV24, xBGR, BGRx, xRGB, RGBx, BGR, IYU2, v308, RGB, Y42B, NV61, NV16, VYUY, UYVY, YVYU, YUY2, I420, YV12, NV21, NV12, NV12_8L128, NV12_64Z32, NV12_4L4, NV12_32L32, NV12_16L32S, Y41B, IYU1, YVU9, YUV9, RGB16, BGR16, RGB15, BGR15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
 Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, encodebin, encodebin2, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videoconvertscale, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
 Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
 Gstreamer-Uri-Sinks: appsink, file, resource
@@ -515,136 +309,6 @@ Description: GStreamer helper programs from the "base" set
  This package contains helper programs from the "base" set, an essential
  exemplary set of elements.
 
-Package: gstreamer1.0-plugins-good
-Source: gst-plugins-good1.0
-Version: 1.22.6-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 9546
-Depends: libaa1 (>= 1.4p5), libavc1394-0 (>= 0.5.3), libbz2-1.0, libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4 (>= 1.0.0), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.77.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer-plugins-good1.0-0 (= 1.22.6-1ubuntu1), libgstreamer1.0-0 (>= 1.22.0), libgudev-1.0-0 (>= 147), libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg8 (>= 8c), libmp3lame0 (>= 3.100), libmpg123-0 (>= 1.28.0), libnettle8, liborc-0.4-0 (>= 1:0.4.34), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 2.0), libraw1394-11 (>= 2.1.2), librga2, libshout3 (>= 2.4.6), libspeex1 (>= 1.2~), libstdc++6 (>= 13.1), libtag1v5 (>= 1.9.1-2.2~), libtwolame0 (>= 0.3.10), libv4l-0 (>= 0.5.0), libvpx7 (>= 1.12.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base (>= 1.22.0), libsoup2.4-1 (>= 2.48) | libsoup-3.0-0
-Recommends: gstreamer1.0-x
-Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.22), gstreamer1.0-pulseaudio (<< 1.18.0)
-Replaces: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.22), gstreamer1.0-pulseaudio (<< 1.18.0)
-Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-plugins-good_1.22.6-1ubuntu1_arm64.deb
-Size: 2190490
-MD5sum: fe197c368973cda4927ff3f3fed50311
-SHA1: 99817ad2cbf92091b7cce2aa61fa2b0b4b1dd00c
-SHA256: d8bc3c1477d6809329eb30afacd462b7937351bb980e88b2d9ed6a6693d68ec2
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer plugins from the "good" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains the GStreamer plugins from the "good" set, a set
- of good-quality plug-ins under the LGPL license.
-Gstreamer-Decoders: application/dash+xml; application/vnd.ms-sstr+xml; application/x-3gp; application/x-apetag; application/x-hls; application/x-icy; application/x-id3; application/x-navi-animation; application/x-rtp, media=(string)audio, payload=(int)[ 96, 127 ], encoding-name=(string){ TELEPHONE-EVENT, ISAC, SBC, OPUS, X-GST-OPUS-DRAFT-SPITTKA-00, MULTIOPUS }; application/x-rtp, payload=(int)[ 96, 127 ], media=(string){ audio, video }, encoding-name=(string){ X-QT, X-QUICKTIME }; application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string){ RGB, RGBA, BGR, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1 }; application/x-rtp, media=(string){ video, audio, application }, encoding-name=(string)MPEG4-GENERIC, mode=(string){ generic, CELP-cbr, CELP-vbr, AAC-lbr, AAC-hbr, aac-hbr }; application/x-rtp, media=(string)video, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCrA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, colorspace=(string){ sRGB, sYUV, GRAY }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, payload=(int)31, encoding-name=(string)H261; application/x-rtp, media=(string)video, payload=(int)[ 96, 127 ], encoding-name=(string)H261; application/x-rtp, media=(string)audio, encoding-name=(string){ AMR, AMR-WB }, octet-align=(string)1; application/x-rtp, media=(string){ video, audio }, encoding-name=(string)DV, encode=(string){ SD-VCR/525-60, SD-VCR/625-50, HD-VCR/1125-60, HD-VCR/1250-50, SDL-VCR/525-60, SDL-VCR/625-50, 306M/525-60, 306M/625-50, 314M-25/525-60, 314M-25/625-50, 314M-50/525-60, 314M-50/625-50 }; application/x-rtp, media=(string)video, encoding-name=(string){ VP9, VP9-DRAFT-IETF-01, VP8, VP8-DRAFT-IETF-01, THEORA, X-SV3V-ES, X-SORENSON-VIDEO, X-SORENSONVIDEO, X-SorensonVideo, MP4V-ES, MP2T, MP2T-ES, MP1S, JPEG, H265, H264, H263, H263-1998, H263-2000, MPV }; application/x-rtp, media=(string)audio, encoding-name=(string){ VORBIS, SPEEX, SIREN, X-QDM, QCELP, MP4A-LATM, L24, L16, L8, MPA-ROBUST, X-MP3-DRAFT-00, X-MP3-DRAFT-01, X-MP3-DRAFT-02, X-MP3-DRAFT-03, X-MP3-DRAFT-04, X-MP3-DRAFT-05, X-MP3-DRAFT-06, MPA, PCMU, PCMA, GSM, G729, G726, G726-16, G726-24, G726-32, G726-40, AAL2-G726-16, AAL2-G726-24, AAL2-G726-32, AAL2-G726-40, G723, G722, ILBC, CELT, BV16, BV32, AC3 }; application/x-rtp, media=(string)audio, payload=(int){ 12, 10, 11, 14, 0, 8, 3, 18, 4, 9 }; application/x-rtp, media=(string)video, payload=(int){ 33, 26, 34, 32 }; application/x-rtp, media=(string)other, encoding-name=(string)MP1S; application/x-rtp, media=(string)application, encoding-name=(string){ SMPTE336M, X-GST }; application/x-subtitle-avi; audio/ac3; audio/mpeg, mpegversion=(int){ 1, 2, 4 }; audio/webm; audio/x-ac3; audio/x-alaw; audio/x-amr-nb-sh; audio/x-amr-wb-sh; audio/x-au; audio/x-dts; audio/x-eac3; audio/x-flac; audio/x-m4a; audio/x-matroska; audio/x-mulaw; audio/x-private1-ac3; audio/x-private1-dts; audio/x-rf64; audio/x-sbc; audio/x-speex; audio/x-wav; audio/x-wavpack; audio/x-wavpack-correction; image/bmp; image/jpeg; image/png; image/svg; image/svg+xml; image/tiff; image/vnd.wap.wbmp; image/x-MS-bmp; image/x-bitmap; image/x-bmp; image/x-cmu-raster; image/x-icon; image/x-pcx; image/x-pixmap; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; image/x-sun-raster; image/x-tga; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-dv, systemstream=(boolean){ false, true }; video/x-fli; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8; video/x-vp9
-Gstreamer-Elements: 3gppmux, aacparse, aasink, aatv, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrparse, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cacatv, cairooverlay, camerabin, capssetter, cpureport, cutter, dashdemux2, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, hlsdemux2, icydemux, id3demux, id3v2mux, imagefreeze, imagesequencesrc, interleave, ismlmux, jackaudiosink, jackaudiosrc, jifmux, jpegdec, jpegenc, jpegparse, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mssdemux2, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pulsesink, pulsesrc, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtphdrextclientaudiolevel, rtphdrextcolorspace, rtphdrextmid, rtphdrextntp64, rtphdrextrepairedstreamid, rtphdrextstreamid, rtphdrexttwcc, rtpilbcdepay, rtpilbcpay, rtpisacdepay, rtpisacpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpldacpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpst2022-1-fecdec, rtpst2022-1-fecenc, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, viewfinderbin, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, wrappercamerabinsrc, ximagesrc, xingmux, y4menc
-Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/mpeg, mpegversion=(int)1, layer=(int){ 1, 2, 3 }; audio/webm; audio/x-alaw; audio/x-flac; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
-Gstreamer-Uri-Sinks: udp
-Gstreamer-Uri-Sources: dv, hdv, http, https, icy, icyx, imagesequence, multifile, pushfile, radio, rtsp, rtsp-sdp, rtsph, rtsps, rtspsh, rtspst, rtspsu, rtspt, rtspu, splitfile, splitmux, udp, v4l2
-Gstreamer-Version: 1.22
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-
-Package: gstreamer1.0-pulseaudio
-Source: gst-plugins-good1.0
-Version: 1.22.6-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 64
-Depends: gstreamer1.0-plugins-good (>= 1.22.0)
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-pulseaudio_1.22.6-1ubuntu1_arm64.deb
-Size: 14114
-MD5sum: 73ee99042866e41bd01d996d058b2be6
-SHA1: c1df5e78ccda31b8913c04c0a4b3520f343762ce
-SHA256: 247acbbc47128ad393d4dba502bd9be60f413c4968827425d4892e0f94cfb3b8
-Section: oldlibs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer plugin for PulseAudio (transitional package)
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package used to contain the GStreamer plugin for PulseAudio, a
- sound server for POSIX and WIN32 systems.
- .
- This is a transitional package.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-
-Package: gstreamer1.0-qt5
-Source: gst-plugins-good1.0
-Version: 1.22.6-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 262
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libopengl0, libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5waylandclient5 (>= 5.10.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.5)
-Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
-Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
-Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-qt5_1.22.6-1ubuntu1_arm64.deb
-Size: 60700
-MD5sum: 8125554311070a23b83b56e8db952dd0
-SHA1: 41afaeb77363faa3ed63aef99dc395794d97fbd4
-SHA256: af8a687249ea085571489e5d9c4560effcc99af1716298d612729d145a721c24
-Section: graphics
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer plugin for Qt5
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains the GStreamer plugin for Qt5.
-Gstreamer-Elements: qmlgloverlay, qmlglsink, qmlglsrc
-Gstreamer-Version: 1.22
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-
-Package: gstreamer1.0-qt6
-Source: gst-plugins-good1.0
-Version: 1.22.6-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 198
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libgles2, libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.2.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6waylandclient6 (>= 6.2.2), libstdc++6 (>= 5)
-Provides: gstreamer1.0-videosink
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-qt6_1.22.6-1ubuntu1_arm64.deb
-Size: 40088
-MD5sum: cb0b6d2159ff4ccec8bc46455e3b7243
-SHA1: 86f241558eeeaabb598aa18e1443535a0a8e846a
-SHA256: aa077779e341091a8f239f8b45bbc046ced9f4f74ea87b603794526c2cdc0400
-Section: graphics
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer plugin for Qt6
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains the GStreamer plugin for Qt6.
-Gstreamer-Elements: qml6glsink
-Gstreamer-Version: 1.22
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-
 Package: gstreamer1.0-rockchip1
 Source: gstreamer1.0-rockchip
 Version: 1.14-4
@@ -653,40 +317,14 @@ Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 348
 Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.108), libglib2.0-0 (>= 2.54.0), libgstreamer-plugins-base1.0-0 (>= 1.14), libgstreamer1.0-0 (>= 1.14), librga2, librockchip-mpp1, libx11-6
 Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
-Size: 72650
-MD5sum: 5940fe15a17feeeca535b3ac71318adf
-SHA1: 2983dfa002666b502f9a1c0b88aff576e620f013
-SHA256: c829e8541f1a2d2e9a6b515e70d01388ba60e263ab40c58dd0326756e8ddef20
+Size: 72652
+MD5sum: 38bf915d9e4d1ab6e0c20615b0730e71
+SHA1: 6b144991954a1dae955f031ae1aef311754caebd
+SHA256: e0c7bb0d456aeaa7e8d0075821c2099376054c62cde884d054fbb1de6a3a61a1
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/gstreamer-rockchip
 Description: The Gstreamer plugins for Rockchip platforms.
-
-Package: gstreamer1.0-tools
-Source: gstreamer1.0
-Version: 1.22.5-1
-Architecture: arm64
-Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 463
-Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.75.3), libgstreamer1.0-0 (>= 1.20.0)
-Suggests: gstreamer1.0-plugins-base
-Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-tools_1.22.5-1_arm64.deb
-Size: 67180
-MD5sum: 5e3ee28c48180b7b3e9ff1058c6f0d57
-SHA1: 784d79cddaeb6faae464f6cd41d497fe312c5844
-SHA256: 2d3793d4faabc0d466e22e3c1b65778a8515da7036cd40101c459063a3ce73e1
-Section: utils
-Priority: optional
-Homepage: https://gstreamer.freedesktop.org
-Description: Tools for use with GStreamer
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains versioned command-line tools for GStreamer.
 
 Package: gstreamer1.0-x
 Source: gst-plugins-base1.0
@@ -697,10 +335,10 @@ Installed-Size: 377
 Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.62), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1
 Provides: gstreamer1.0-videosink
 Filename: dists/mantic-rockchip/main/binary-arm64/gstreamer1.0-x_1.22.6-1_arm64.deb
-Size: 89322
-MD5sum: 13b918e723c19acb20c46629fa7bba94
-SHA1: bb00233096bc306fd120bee3fef7b961005c56fc
-SHA256: 29c362f810635fcd296a5eef6c18679d5d412fd950e6e768e880a70867c2fec4
+Size: 87458
+MD5sum: 6e734de250925e916755d16dac3773d3
+SHA1: 34f4cc383a20efc91f6038b9bf9f823bda132522
+SHA256: df0d04e9f101e0d39cf45c34deefa27e1c3e47e3b0fb3d9685a77c3d9968ee92
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -746,13 +384,13 @@ Source: ffmpeg
 Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 18986
+Installed-Size: 18973
 Depends: libavcodec60 (= 7:6.0-6ubuntu1), libavutil-dev (= 7:6.0-6ubuntu1), libswresample-dev (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavcodec-dev_6.0-6ubuntu1_arm64.deb
-Size: 6294586
-MD5sum: 967b16993e8551e45f224e06527a95a0
-SHA1: c63a43324f7e00bba1c45f5e2430615b738223f0
-SHA256: 3d3685100a5abdd0854b7223a40942e9fe8cd81fabfd8550b5e64027b0f9f535
+Size: 6290670
+MD5sum: 2fc8ddfdec6a5604f4cf824b59c07cae
+SHA1: 53c8df74e29f044034297c8aa9b589d5c9ee450d
+SHA256: dc0dc6edcfcdc65c8480dfc36e0f2744bf4d8b8dad1c63f1907b7ed45eb3e4a0
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -805,15 +443,15 @@ Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 12753
-Depends: libaom3 (>= 3.2.0), libaribb24-0 (>= 1.0.3), libavutil58 (= 7:6.0-6ubuntu1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d6 (>= 0.9.0), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librga2, librockchip-mpp1, librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1 (>= 1.6.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvo-amrwbenc0 (>= 0.1.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx7 (>= 1.12.0), libwebp7 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libx264-164 (>= 2:0.164.3095+gitbaee400), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libyuv0 (>= 0.0~git20220809), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Depends: libaom3 (>= 3.2.0), libaribb24-0 (>= 1.0.3), libavutil58 (= 7:6.0-6ubuntu1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d6 (>= 0.9.0), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librga2, librockchip-mpp1, librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1 (>= 1.6.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvo-amrwbenc0 (>= 0.1.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx7 (>= 1.12.0), libwebp7 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libx264-164 (>= 2:0.164.3095+gitbaee400), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
 Conflicts: libavcodec60
 Provides: libavcodec60 (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavcodec-extra60_6.0-6ubuntu1_arm64.deb
-Size: 5635896
-MD5sum: 50ee20377457c51e46f7eeaaca3204ed
-SHA1: c9637551a5aea3f4af3c541e990adcce7e458916
-SHA256: fb483f0da9d2fbbc916a02fd1271dca2af6840c9ec69d45c132c175d65653c61
+Size: 5635114
+MD5sum: c9bfa5c95ad8c374f44b1452e1534910
+SHA1: 5b7e3cd3f2256a92e987a76e6733771a2e047d7a
+SHA256: 5eb8325c134a730e2d260fdf0f4f6f8ab95cee81f4b07dec131493f838118e39
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -850,13 +488,13 @@ Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 12689
-Depends: libaom3 (>= 3.2.0), libavutil58 (= 7:6.0-6ubuntu1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d6 (>= 0.9.0), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librga2, librockchip-mpp1, librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1 (>= 1.6.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx7 (>= 1.12.0), libwebp7 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libx264-164 (>= 2:0.164.3095+gitbaee400), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libyuv0 (>= 0.0~git20220809), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Depends: libaom3 (>= 3.2.0), libavutil58 (= 7:6.0-6ubuntu1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d6 (>= 0.9.0), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librga2, librockchip-mpp1, librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1 (>= 1.6.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx7 (>= 1.12.0), libwebp7 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libx264-164 (>= 2:0.164.3095+gitbaee400), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
 Filename: dists/mantic-rockchip/main/binary-arm64/libavcodec60_6.0-6ubuntu1_arm64.deb
-Size: 5629608
-MD5sum: d9f4fb8e3829e15c41fa1e3f8fc7a974
-SHA1: ce45d4bbfacdbd9053aafa874a26a7cda12d5fc2
-SHA256: d0473ce584a4cf34cb45858a6a781762892baa05640ac6430a41ba775c5e6d72
+Size: 5628964
+MD5sum: b0c141ef2ab517728d3ea37b4e15271e
+SHA1: 31541fe796f9c4cd280c27937535806459cfa5ef
+SHA256: 19efdd720f1e29b3fdc6d961d53a1c2a6cc17f86dde3d58a92edba914713b1e4
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -885,10 +523,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 430
 Depends: libavcodec-dev (= 7:6.0-6ubuntu1), libavdevice60 (= 7:6.0-6ubuntu1), libavfilter-dev (= 7:6.0-6ubuntu1), libavformat-dev (= 7:6.0-6ubuntu1), libavutil-dev (= 7:6.0-6ubuntu1), libpostproc-dev (= 7:6.0-6ubuntu1), libswscale-dev (= 7:6.0-6ubuntu1), libswresample-dev (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavdevice-dev_6.0-6ubuntu1_arm64.deb
-Size: 106474
-MD5sum: 82fff8728e7b648665e93cb490afa7b4
-SHA1: 5090fb9bb942948053e26ea8780c8dd547fca6e4
-SHA256: 24012015d6ac679aa7486ace00b52cfac3450652f29509be111c126b3f67beb1
+Size: 106488
+MD5sum: 1695c0084e8c3e302b43feef6a57ea20
+SHA1: 7e3052024934197e596dcf10bd310db74e2ce81d
+SHA256: b6da8f2af3c2e7a4e69eab75d0b48d627edb0e04755464ab92426a43ebf96dd2
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -913,10 +551,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 321
 Depends: libasound2 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec60 (>= 7:6.0), libavfilter9 (>= 7:6.0), libavformat60 (= 7:6.0-6ubuntu1), libavutil58 (= 7:6.0-6ubuntu1), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcdio-cdda2 (>= 10.2+2.0.0), libcdio-paranoia2 (>= 10.2+2.0.0), libdc1394-25 (>= 2.2.6), libdrm2 (>= 2.4.101), libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libsdl2-2.0-0 (>= 2.0.12), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
 Filename: dists/mantic-rockchip/main/binary-arm64/libavdevice60_6.0-6ubuntu1_arm64.deb
-Size: 90142
-MD5sum: f4c21dcccddf80e625ec7427940eeeb9
-SHA1: fb78092cf9c8d21ec47a0c4d50595750b514c63d
-SHA256: 3e844339ff2e1b5694f0b65cb4ebce036912990f49f67a200acf2b8f9735c1b3
+Size: 90156
+MD5sum: 2d6f7dde0bb3d21d99e7d68495a0a6ac
+SHA1: 1cb7742583096f0637c996ce6c1699f8b35ec00a
+SHA256: cbd2bc18c17d192f7020c0fef89e2d020eea9295396efb45adb98090c688f6a8
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -938,13 +576,13 @@ Source: ffmpeg
 Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 8317
+Installed-Size: 8371
 Depends: libavcodec-dev (= 7:6.0-6ubuntu1), libavfilter9 (= 7:6.0-6ubuntu1), libavformat-dev (= 7:6.0-6ubuntu1), libavutil-dev (= 7:6.0-6ubuntu1), libpostproc-dev (= 7:6.0-6ubuntu1), libswresample-dev (= 7:6.0-6ubuntu1), libswscale-dev (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavfilter-dev_6.0-6ubuntu1_arm64.deb
-Size: 2133640
-MD5sum: e228295499fd83301633ff06f21153cf
-SHA1: 57508c6843d218869cb99bb53911098c76f30b17
-SHA256: 7f195b2acbc7c4c48b3cfa738fc53b20575e5eb0211cb119506af4de9444e06c
+Size: 2146468
+MD5sum: 59287c791cc40f178af0cc0b737da080
+SHA1: b6a0a6fbe327ae2e2cab8b2c4af326f6f4ab5818
+SHA256: dc454191c66239bab9d52e18b89140158cd9bfdb0888ecf6bce252cd28bccaf8
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -991,15 +629,15 @@ Source: ffmpeg
 Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 11789
-Depends: libass9 (>= 1:0.13.6), libavcodec60 (= 7:6.0-6ubuntu1), libavformat60 (>= 7:6.0), libavutil58 (= 7:6.0-6ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo292 (>= 6.292.0), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libtesseract5 (>= 5.3.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Installed-Size: 11853
+Depends: libass9 (>= 1:0.13.6), libavcodec60 (= 7:6.0-6ubuntu1), libavformat60 (>= 7:6.0), libavutil58 (= 7:6.0-6ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo292 (>= 6.292.0), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librga2, librubberband2 (>= 3.3.0+dfsg), libsphinxbase3 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libtesseract5 (>= 5.3.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Conflicts: libavfilter9
 Provides: libavfilter9 (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavfilter-extra9_6.0-6ubuntu1_arm64.deb
-Size: 3941870
-MD5sum: 62d5428a6b5ef3f39f898c08576b950f
-SHA1: 21e575dd2475df6f54577f82d22c741fdd15bac6
-SHA256: 31a8dcc7d12b589419f8b7e64284e908282e555975f3fb7a40dd760056ce53c9
+Size: 3995662
+MD5sum: 33fbe18fc718b4107a6472b917c6210f
+SHA1: 8bfeb12cfbbba470770aac070f28dab94b038f5d
+SHA256: 7a40ff193cb8f4ef30b67a8232a0470fa3505fd467da4d0ece4781d7ee9dd4af
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1028,12 +666,12 @@ Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 11853
-Depends: libass9 (>= 1:0.13.6), libavcodec60 (= 7:6.0-6ubuntu1), libavformat60 (>= 7:6.0), libavutil58 (= 7:6.0-6ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo292 (>= 6.292.0), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Depends: libass9 (>= 1:0.13.6), libavcodec60 (= 7:6.0-6ubuntu1), libavformat60 (>= 7:6.0), libavutil58 (= 7:6.0-6ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo292 (>= 6.292.0), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librga2, librubberband2 (>= 3.3.0+dfsg), libsphinxbase3 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavfilter9_6.0-6ubuntu1_arm64.deb
-Size: 3939892
-MD5sum: 95e038b7482d9e83bc1eecfbd36d46f1
-SHA1: 874eb48d68fbd404bd08cfb465c043e0f9481a4f
-SHA256: 3740b035fb6f0c203b7a8766531f3542e33bcb13956db157caf442424ff216e8
+Size: 3992146
+MD5sum: 112ed80021201c618665aacb5337bb27
+SHA1: 2cc7ec0e02d316c8722ea76f0a8bcd30cce4cd5e
+SHA256: 3a55b93ea04020639b8b371ccbda0db7281eb9f6d7866aebe91eadc166ba024a
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1057,10 +695,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 5891
 Depends: libavcodec-dev (= 7:6.0-6ubuntu1), libavformat60 (= 7:6.0-6ubuntu1), libavutil-dev (= 7:6.0-6ubuntu1), libswresample-dev (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavformat-dev_6.0-6ubuntu1_arm64.deb
-Size: 1455568
-MD5sum: c53578cd390f9de0d43065321992742b
-SHA1: ef7830da788aa828cecbdb6b976e35194c45c61b
-SHA256: ce5e3058f39455bc3ea2a5864af92c7cdd455dad36cb6a8af46c9150f86b2f31
+Size: 1455632
+MD5sum: 7abda09c7b7c728008c8dfb9a13c3331
+SHA1: 7da6cdf2354789e57448e138ebe87720756cca8a
+SHA256: 05f130a2bf09014c57837db4e8cf98255416d91503dca116692efebefe946d65
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -1114,10 +752,10 @@ Depends: libavcodec60 (= 7:6.0-6ubuntu1), libavutil58 (= 7:6.0-6ubuntu1), libblu
 Conflicts: libavformat60
 Provides: libavformat60 (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavformat-extra60_6.0-6ubuntu1_arm64.deb
-Size: 1177512
-MD5sum: ef63fa2deab0e979e4d15f5523cdc8fe
-SHA1: df4873dcc2ab32563774b787a08bad48a64cbbae
-SHA256: 663fd13207ecf3e3daf75e0c361b2ea5012cbe7761101dedf93ef94effe7c0a7
+Size: 1177318
+MD5sum: 2a5003ca9b1f05582cf9270f3496a7c6
+SHA1: 46453d3a0ea9fcd27b6b61c96898d172aa63d99b
+SHA256: ada0d9d67bd9e4c7668f8e2be4902f2680f1a330a3cad6473c564bae15a40cbd
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1150,10 +788,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2888
 Depends: libavcodec60 (= 7:6.0-6ubuntu1), libavutil58 (= 7:6.0-6ubuntu1), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30 (>= 3.8.1), libopenmpt0 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.2), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavformat60_6.0-6ubuntu1_arm64.deb
-Size: 1177236
-MD5sum: cef51ad6f6c859e669191db69776a5d1
-SHA1: 5945646a29e8885b7581d6ddb4e142e78853ff21
-SHA256: 259b02aa4e065540f77a96229b7a0f1cd26bf4beea604d031db7e6f6fb6626ad
+Size: 1177206
+MD5sum: aa97ad97d5a466a892bfeb59c16a9062
+SHA1: de5284b24cc64ce39013674b3290094d728c37a1
+SHA256: d83eb2267ded639553cf7f9d3f00d8eb1f0947b624d24216e7d69fadacf8d009
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1176,13 +814,13 @@ Source: ffmpeg
 Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2129
+Installed-Size: 2144
 Depends: libavutil58 (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libavutil-dev_6.0-6ubuntu1_arm64.deb
-Size: 515448
-MD5sum: aa3954b6c3150772ee27b38e83444878
-SHA1: ef5b1cec33157dfd47981f28d45817a37b3ec8c4
-SHA256: 474a17760922a2806e88f43b274ca2872596778c73829711ca4f5a5413c98982
+Size: 517478
+MD5sum: 052b79fc810b547d8426f8cb73f1dec5
+SHA1: 6abead8fe4a3871df8201d4cdbb647750f9286e4
+SHA256: 0e9d66ff4a97c65dd3384fa9d5aa1f5e0666c5b47057282626a4b1ec4b82f4ff
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -1208,12 +846,12 @@ Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 986
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.1.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), librockchip-mpp1, libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.1.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
 Filename: dists/mantic-rockchip/main/binary-arm64/libavutil58_6.0-6ubuntu1_arm64.deb
-Size: 364652
-MD5sum: 985ad7bf3d0852c3e58ee69dbd7332f3
-SHA1: b69c997edc0a9a562ad3da3039649efa9d1d8856
-SHA256: 040c41fcccd12a049ba82544cd92ccc9eebf909854f96a0a57d388e1b1e7ea94
+Size: 366654
+MD5sum: 6751215701753cd193c894bd0c3b5373
+SHA1: a4c5f27b955b912b2e969899d5a2efc97f00b6a7
+SHA256: a3304887126074b1bb845f00b8845b73a05eb65e2eefaff78e54c62ff3f69e24
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1291,10 +929,10 @@ Maintainer: Gregor Jasny <gjasny@googlemail.com>
 Installed-Size: 578
 Depends: libc6 (>= 2.38), libudev1 (>= 183)
 Filename: dists/mantic-rockchip/main/binary-arm64/libdvbv5-0_1.24.1-3_arm64.deb
-Size: 190790
-MD5sum: 3e63028ccbeffa111094110b8cb05adc
-SHA1: 1f1861d9bfe6bb301905319a0c1546a6aa11e1f5
-SHA256: b852f423c6fc8b2ddaa2efce6c89be5bfdbb1b3e63452486ce3e2178568c0b55
+Size: 190788
+MD5sum: d3b0d95ccb9d39896f95789d6e472b31
+SHA1: 3cc374a307abdbe99fce3f429c64a19b13ead31b
+SHA256: d3019dbf181f246265f7aa361002e01b147d6e741f2eb7aceb012a9c8a4ae4d5
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1361,10 +999,10 @@ Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-gl1.0-0_1.22.6-1_arm64.deb
-Size: 195928
-MD5sum: 7f84ad710dfa82ab8d638d3ede56e6b1
-SHA1: 140542118b72788d59952efe24414f99079f6004
-SHA256: ed85da75c31a0ec77bb05bc75c375ff2eb97ebeb6080687e137bfc631fe3b56e
+Size: 195522
+MD5sum: 99251618e5e36816382ef3122d255806
+SHA1: c804cb3d669a5f9ef21a37959ff8cff9d6013fa5
+SHA256: 51ef4baf1358926efa29b8a5b16861253767c491c7d83e3538f09753774672c6
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1379,108 +1017,6 @@ Description: GStreamer GL libraries
  .
  This package contains the GL library.
 
-Package: libgstreamer-opencv1.0-0
-Source: gst-plugins-bad1.0
-Version: 1.22.4-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 154
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.68), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libopencv-core406 (>= 4.6.0+dfsg)
-Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-opencv1.0-0_1.22.4-1ubuntu1_arm64.deb
-Size: 23802
-MD5sum: 001dd10d2d2a645e6d377a394187ec8d
-SHA1: 1f26c4fa31ee02717c712f71c062ebf80e3a1d30
-SHA256: 1c3c9820bd27bda9ed1a5de15f9792ea27a10af464ceb87071b2b69a9625d644
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer OpenCV libraries
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
- to the rest. They might be close to being good quality, but they're missing
- something - be it a good code review, some documentation, a set of tests, a
- real live maintainer, or some actual wide use.
- .
- This package contains shared GStreamer libraries for OpenCV.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-
-Package: libgstreamer-plugins-bad1.0-0
-Source: gst-plugins-bad1.0
-Version: 1.22.4-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 2797
-Depends: libc6 (>= 2.29), libdrm2 (>= 2.3.1), libglib2.0-0 (>= 2.75.3), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libnice10 (>= 0.1.21), libva-drm2 (>= 1.8), libva2 (>= 2.10.0), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11.0), libxcb1, libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0)
-Conflicts: pitivi (<< 0.9999)
-Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.22.4-1ubuntu1_arm64.deb
-Size: 643852
-MD5sum: 6071b3a054aa4b491df8e81814d3f335
-SHA1: e5560bd0dd49f62e14983ec7e41fe712c727e817
-SHA256: 7b376e0a71ddb237baf88ffec61d62e9d55ab22e7911596a38815e197d1ef661
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer libraries from the "bad" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
- to the rest. They might be close to being good quality, but they're missing
- something - be it a good code review, some documentation, a set of tests, a
- real live maintainer, or some actual wide use.
- .
- This package contains shared GStreamer libraries from the "bad" set. The API
- is not guaranteed to be stable.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-
-Package: libgstreamer-plugins-bad1.0-dev
-Source: gst-plugins-bad1.0
-Version: 1.22.4-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 3160
-Depends: libgstreamer-plugins-bad1.0-0 (= 1.22.4-1ubuntu1), libgstreamer-opencv1.0-0 (= 1.22.4-1ubuntu1), libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer-plugins-good1.0-dev, gir1.2-gst-plugins-bad-1.0 (= 1.22.4-1ubuntu1), libopencv-dev (>= 2.3.0)
-Conflicts: pitivi (<< 0.9999)
-Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.22.4-1ubuntu1_arm64.deb
-Size: 263304
-MD5sum: f5c331c1d67573966b747327aa9ef10a
-SHA1: bbe53201b7e96b5779a176207024d2d0f3dbb421
-SHA256: 025d796bf8bd9423654b1d9834c3b6e113dd9c304f5d71fda03d76cb746dffc3
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer development files for libraries from the "bad" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
- to the rest. They might be close to being good quality, but they're missing
- something - be it a good code review, some documentation, a set of tests, a
- real live maintainer, or some actual wide use.
- .
- This package contains development files for GStreamer libraries from the
- "bad" set. The API is not guaranteed to be stable.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-
 Package: libgstreamer-plugins-base1.0-0
 Source: gst-plugins-base1.0
 Version: 1.22.6-1
@@ -1493,10 +1029,10 @@ Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-0_1.22.6-1_arm64.deb
-Size: 918060
-MD5sum: 59f74c4461aa6a4a6868e1c01da471fe
-SHA1: adc85720018a99893c0127711a1d3e21f62ecd2e
-SHA256: c8fca2b7884e90e42ccf7e38afd8a2098720a4a15e8d13ba6e3fb32ca2321df1
+Size: 917348
+MD5sum: 8ba5250878e1cea52eee70e933aeb6b6
+SHA1: 3e53b4001e9b553f6e7179224005c9dfbb1a8d00
+SHA256: 95c8bac0df8f9819ae3c505af2d05558a378229c851c1b034fce943019cc352c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1517,15 +1053,15 @@ Source: gst-plugins-base1.0
 Version: 1.22.6-1
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 5935
+Installed-Size: 5932
 Depends: libgstreamer-plugins-base1.0-0 (= 1.22.6-1), libgstreamer-gl1.0-0 (= 1.22.6-1), libc6-dev | libc-dev, pkg-config, libgstreamer1.0-dev (>= 1.16.2), libglib2.0-dev, liborc-0.4-dev (>= 1:0.4.24), libgl-dev, libegl-dev, libgles-dev, libx11-xcb-dev, libwayland-dev (>= 1.11), libdrm-dev (>= 2.4.55), libgbm-dev, libgudev-1.0-dev (>= 147), gir1.2-gst-plugins-base-1.0 (= 1.22.6-1)
 Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
 Breaks: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.22.6-1_arm64.deb
-Size: 445234
-MD5sum: fd47c23ee9583ede3d50a8ce16652897
-SHA1: 4b060f08cbb88bd90462b90a6baad7d7a48cbb35
-SHA256: e63d524267ea185c991b6791d07382665b1f1e52438731c199520b6e7120da2a
+Size: 445118
+MD5sum: c03a1ab746ac8f84bd676cf8a2fd1991
+SHA1: e949c4016e3a2435b18f0c0bfc353e944333dce1
+SHA256: d73e59ef7ba773571b9721b294353594eccd83a26c28f782dbf71b8d2810df0e
 Section: libdevel
 Priority: optional
 Homepage: https://gstreamer.freedesktop.org
@@ -1539,121 +1075,6 @@ Description: GStreamer development files for libraries from the "base" set
  .
  This package contains development files for GStreamer libraries from
  the "base" set, an essential exemplary set of elements.
-
-Package: libgstreamer-plugins-good1.0-0
-Source: gst-plugins-good1.0
-Version: 1.22.6-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 203
-Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.62), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0)
-Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.0.3-1ubuntu1)
-Replaces: gstreamer1.0-plugins-good (= 1.0.3-1ubuntu1), libgstreamer-plugins-bad1.0-0 (<< 1.0.3-1ubuntu1)
-Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-plugins-good1.0-0_1.22.6-1ubuntu1_arm64.deb
-Size: 31118
-MD5sum: 14f6cc71678269a4f17f650d41c7d009
-SHA1: b2388e961bb38d584bbca762d3fd334509ba9513
-SHA256: c9489960f0a5318af7585eb441d6e9ac0285b26fae3a2af30ef25f0bb4a4db57
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer development files for libraries from the "good" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains shared GStreamer libraries from the "good" set. The API
- is not guaranteed to be stable.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-
-Package: libgstreamer-plugins-good1.0-dev
-Source: gst-plugins-good1.0
-Version: 1.22.6-1ubuntu1
-Architecture: arm64
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 124
-Depends: libgstreamer-plugins-good1.0-0 (= 1.22.6-1ubuntu1), libgstreamer1.0-dev
-Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer-plugins-good1.0-dev_1.22.6-1ubuntu1_arm64.deb
-Size: 22400
-MD5sum: c016f6a89a13efb2e8499d345d02b598
-SHA1: 3a165473123e2a6c6787c1f9a5662c6e7875d580
-SHA256: 9d8b99942f5b213a771ad9b1869c24e84833d406333b693c65d166ac6ccba0e5
-Section: libdevel
-Priority: optional
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer development files for libraries from the "good" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains development files for GStreamer libraries from the
- "good" set. The API is not guaranteed to be stable.
-Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-
-Package: libgstreamer1.0-0
-Source: gstreamer1.0
-Version: 1.22.5-1
-Architecture: arm64
-Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 4750
-Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdw1 (>= 0.126), libglib2.0-0 (>= 2.77.0), libunwind8, libcap2-bin
-Suggests: gstreamer1.0-tools
-Breaks: gstreamer1.0-plugins-bad (<< 1.11.1), gstreamer1.0-plugins-base (<< 1.8.0), libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer1.0-0_1.22.5-1_arm64.deb
-Size: 1195410
-MD5sum: 579d30d7f44002faf2b0c1a50b13a322
-SHA1: 384e29f2a0ef2a4e8caac7567ee53f85ea7bb22f
-SHA256: f6d80c275579b8c80788579e2cca0a40ae2db0d167cf828221b23d6af4ab45b4
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: Core GStreamer libraries and elements
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains the core library and elements.
-
-Package: libgstreamer1.0-dev
-Source: gstreamer1.0
-Version: 1.22.5-1
-Architecture: arm64
-Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 6144
-Depends: libgstreamer1.0-0 (= 1.22.5-1), libc6-dev | libc-dev, pkg-config, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0 (>= 2.62.0), gir1.2-gstreamer-1.0 (= 1.22.5-1)
-Suggests: gstreamer1.0-doc
-Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.13.1)
-Replaces: libgstreamer-plugins-bad1.0-dev (<< 1.13.1)
-Filename: dists/mantic-rockchip/main/binary-arm64/libgstreamer1.0-dev_1.22.5-1_arm64.deb
-Size: 516714
-MD5sum: af646b60fba775accb8f3c130f3ebb8d
-SHA1: 0f368e6decf36cc81f2ea21672434214aadc985f
-SHA256: b687fba4e5c04f321adfa66416795d7f52049f56e3fd43a9f3ba601a1aca6433
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer core development files
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- This package contains development files for the core library and
- elements.
 
 Package: libkms1
 Source: libdrm
@@ -1720,10 +1141,10 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 666
 Depends: libc6 (>= 2.29), librga2
 Filename: dists/mantic-rockchip/main/binary-arm64/libpixman-1-0_0.42.2-1_arm64.deb
-Size: 204844
-MD5sum: 57cc5097de5b23f8fbcbad52d66f08e1
-SHA1: cf7ce303090eca0c6b955dfbab6d9a34c3025b5e
-SHA256: 262a93523d75826a7f3ead745b9dee56a9047dbe6f8b039deaf59c605094532b
+Size: 204950
+MD5sum: fa842f11813315d8f6c726e1ce8c0484
+SHA1: 3931ddbff50f8fe110409603d8337ea627e948e3
+SHA256: d6028ffeb63676c4be874e4196ad9bdeea080caeba2faea6d29c4b84e0a8053e
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1762,10 +1183,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 125
 Depends: libavutil-dev (= 7:6.0-6ubuntu1), libpostproc57 (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libpostproc-dev_6.0-6ubuntu1_arm64.deb
-Size: 49368
-MD5sum: f00955643fcd2479e36d03b542e352ae
-SHA1: f5f0229d8aa3a1094ec449302622a9020277b23f
-SHA256: 1a000d0f2b49115e8305668afb1b7f47ad9c1352d76e7f7c0d7ebbd65796552d
+Size: 49378
+MD5sum: ab065b2eefe67f43c5559bf78c62df98
+SHA1: 7a3c25ffd6e612e316af8e74f95984ab7d42cb5a
+SHA256: 5d052fca92ac8325c5ad20ccd148793468bc56808bee3e4d0895c96931ecefed
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -1788,10 +1209,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 132
 Depends: libavutil58 (>= 7:6.0), libc6 (>= 2.17)
 Filename: dists/mantic-rockchip/main/binary-arm64/libpostproc57_6.0-6ubuntu1_arm64.deb
-Size: 48624
-MD5sum: 2625b79538d6eeaf39d50e4e0280f385
-SHA1: 92646d9ee0c1be50836278aec77bce719270cc0e
-SHA256: e1dce52b634c27d2e3fb301f829c3ad5eadd00f215a5216bac556248de36fd84
+Size: 48636
+MD5sum: 9e06643743b436ade0df76bdb715f2f6
+SHA1: 4fbf22f0cda5a44f7f869a324789a5b53a0913c6
+SHA256: 94e565ee20d87037473713973899d7433925cf60effb3240709d34def034dfbd
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1811,12 +1232,12 @@ Source: librga
 Version: 2.2.0-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 136
+Installed-Size: 137
 Filename: dists/mantic-rockchip/main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
-Size: 17966
-MD5sum: 90db45ae4aaae96bd6d486b648e6e541
-SHA1: 3de8177e935079999709aae56e62ba149a10e61b
-SHA256: 0139edb386722d282b23211cc57afadeb07341e2cf6c259c690738081a41b29c
+Size: 18052
+MD5sum: 5d73cc74c146b4274f3250be61a1fae3
+SHA1: 24d5c86876d6aad7aa2c8baa429bfcd9b57649a0
+SHA256: 1b5d8484e7490becf36bb04557258207629088c2b32315b742717d7a13fa5978
 Section: libdevel
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
@@ -1830,10 +1251,10 @@ Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 211
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Filename: dists/mantic-rockchip/main/binary-arm64/librga2_2.2.0-1_arm64.deb
-Size: 66736
-MD5sum: 6081f3f7f435431fee7ab1773a52b75c
-SHA1: 325b73b6e572b0f959bdffc13454429632607139
-SHA256: c82dda99d5528808f0a03af54aadd5e668d437ea14c55e1c85e3e081b5b53c1e
+Size: 67740
+MD5sum: e5a236e4afb8fa185aaf582bd05456de
+SHA1: b6d6b498aee479a51f62b2a763f6b1861904f6b8
+SHA256: cf9d98b04fe42a71de6c45f6636d69b7face0b6888c6d8990cb574d4021d1956
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
@@ -1841,53 +1262,53 @@ Description: Userspace interface to Rockchip RGA 2D accelerator
 
 Package: librockchip-mpp-dev
 Source: mpp
-Version: 1.5.0-1
+Version: 1.0.4-1
 Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 226
-Depends: librockchip-mpp1 (= 1.5.0-1)
-Filename: dists/mantic-rockchip/main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
-Size: 45530
-MD5sum: 6e18d2f304afab19d89ee7f24f085ae0
-SHA1: 372d8b0d46ed92d2a4d0b787218e6866d3aaa13f
-SHA256: 730181c030b8b57c347920de29b32e16a50c0028950285652c2d3fdb5c86c803
+Maintainer: Herman Chen <herman.chen@rock-chips.com>
+Installed-Size: 227
+Depends: librockchip-mpp1 (= 1.0.4-1)
+Filename: dists/mantic-rockchip/main/binary-arm64/librockchip-mpp-dev_1.0.4-1_arm64.deb
+Size: 45342
+MD5sum: f460d0fa3aa4aac2b68e0d21fad552ae
+SHA1: ed1c4b259db2ea5ec9225662b70ad4b15bd22d94
+SHA256: 4bc0f1a3dba7615cc3cf6d0b245ae3500723e6fc4d511d4fb45ff86f56e48f14
 Section: libdevel
 Priority: optional
-Homepage: http://www.rock-chips.com
+Homepage: https://github.com/rockchip-linux/mpp
 Description: Media Process Platform
 
 Package: librockchip-mpp1
 Source: mpp
-Version: 1.5.0-1
+Version: 1.0.4-1
 Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
+Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 1986
 Depends: libc6 (>= 2.38), libstdc++6 (>= 5)
-Filename: dists/mantic-rockchip/main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
-Size: 816136
-MD5sum: b968b82fe963d0b1f404add4210f8402
-SHA1: dadd9d0fa783a2d51157399cc125d2cb525c57f1
-SHA256: ed9a41350eb26816d80d7778229d517ddf29a7c0081dc87fdd8b1af8e1a6133a
+Filename: dists/mantic-rockchip/main/binary-arm64/librockchip-mpp1_1.0.4-1_arm64.deb
+Size: 814362
+MD5sum: 3129e965c9c891471389cbfcca545b02
+SHA1: 59541ff0b1b103a87869aaf61bfba905bdf00d88
+SHA256: 90ec95fb469c5ca0520f3ae2a4b3a9bbf940d997c1b4e08099e7469dbab515d1
 Section: libs
 Priority: optional
-Homepage: http://www.rock-chips.com
+Homepage: https://github.com/rockchip-linux/mpp
 Description: Media Process Platform
 
 Package: librockchip-vpu0
 Source: mpp
-Version: 1.5.0-1
+Version: 1.0.4-1
 Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
+Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 85
 Depends: libc6 (>= 2.34), librockchip-mpp1, libstdc++6 (>= 5)
-Filename: dists/mantic-rockchip/main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
-Size: 30718
-MD5sum: 78874fa82303ae9709d374a00b5727da
-SHA1: 92700d9f5746c5ccede5027446d5113666c85f6b
-SHA256: d1bf05699bdc86293714ea1d0be39b5c7ba6344a5a5dbc453e6effc4babcfffa
+Filename: dists/mantic-rockchip/main/binary-arm64/librockchip-vpu0_1.0.4-1_arm64.deb
+Size: 30588
+MD5sum: 9816044fa40223116a71ed770a20b223
+SHA1: 18f45ba07adadeba0e7727afb03f92a9afef5ce0
+SHA256: ed0f17c4147c22db697d552f4b0b8047d6a800888e98fffecdaf97fc74a77e59
 Section: libs
 Priority: optional
-Homepage: http://www.rock-chips.com
+Homepage: https://github.com/rockchip-linux/mpp
 Description: Media Process Platform
 
 Package: libswresample-dev
@@ -1899,9 +1320,9 @@ Installed-Size: 268
 Depends: libavutil-dev (= 7:6.0-6ubuntu1), libswresample4 (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libswresample-dev_6.0-6ubuntu1_arm64.deb
 Size: 78576
-MD5sum: 094f64ad69e4ec8e4de419e1a6dd37a0
-SHA1: 2639c69b425eb00d999364903f3add25e1009722
-SHA256: 0b693cc73a997b23574ab10c92059250f67510569087ee02f3e12cc2d801b7bc
+MD5sum: 26e16a36a6215f5d5394bfd23187879e
+SHA1: 3799b6ac8b12dfa458ce86d1d629f809a7a26a8c
+SHA256: 22d93bb50da676e185bf553895cb93790c4bd201b2dfe9565b8d2bf3e129731c
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -1941,10 +1362,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 197
 Depends: libavutil58 (>= 7:6.0), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
 Filename: dists/mantic-rockchip/main/binary-arm64/libswresample4_6.0-6ubuntu1_arm64.deb
-Size: 66020
-MD5sum: a938bcef2283b7ae4bed2dc66616b4d3
-SHA1: 2969c1e0cd32dc817f29b3dd4d341cb60cf2b07f
-SHA256: 842b61330eda85a0e17558c33db86f90368e4b081cb833ae651a0cd4111ef1f0
+Size: 66022
+MD5sum: 446c704679bcf6f1367a82c5e3f7f9ba
+SHA1: 6b46552870bba7e40d44657454aa11756da9ee7c
+SHA256: 1c18c36b35c769485ab22975287dfef761baf141c0b34c317a9e275f5b72e1f7
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1981,13 +1402,13 @@ Source: ffmpeg
 Version: 7:6.0-6ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 767
+Installed-Size: 768
 Depends: libavutil-dev (= 7:6.0-6ubuntu1), libswscale7 (= 7:6.0-6ubuntu1)
 Filename: dists/mantic-rockchip/main/binary-arm64/libswscale-dev_6.0-6ubuntu1_arm64.deb
-Size: 203886
-MD5sum: 5be4e9c44c7c578864ee71d04f52d89e
-SHA1: 02f80d015f0f7eb9056a72db381fbac7a4d4839b
-SHA256: 7b0f0fe4c0a19298e7e41493c1cb82b8e972e532dfacd01f9d880bb1ff13e405
+Size: 204122
+MD5sum: c50aff250d8d53acf353f4ffc66facc4
+SHA1: 38cabb1d22d9c75c4eb77ac4d19b2fd854684bca
+SHA256: 5600e21398c76167552d4c7baa964838f3d744dcdf6ca9f00dea4502421c7bae
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -2021,10 +1442,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 581
 Depends: libavutil58 (= 7:6.0-6ubuntu1), libc6 (>= 2.34)
 Filename: dists/mantic-rockchip/main/binary-arm64/libswscale7_6.0-6ubuntu1_arm64.deb
-Size: 180112
-MD5sum: 15179ac51bcd6dbbf81a9efd16381430
-SHA1: 16142675397b01e0802c388ec358ae93968a4add
-SHA256: eb503208e245bc0256113b9bb0ba727020ba362f9a88e11cb1c8ea63daa0c06a
+Size: 180306
+MD5sum: 695544022980b24e639eda4ac64753f5
+SHA1: 5ef9602c95966dcb882a451eaf3929c19fff5bd0
+SHA256: 7f1f831b8cd996d34a19fc3fc4b24e371ab4779b5b5d4386019474c7cca01a90
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2058,10 +1479,10 @@ Maintainer: Gregor Jasny <gjasny@googlemail.com>
 Installed-Size: 424
 Depends: libv4lconvert0 (= 1.24.1-3), libc6 (>= 2.34)
 Filename: dists/mantic-rockchip/main/binary-arm64/libv4l-0_1.24.1-3_arm64.deb
-Size: 112692
-MD5sum: 16fd91a4da5f5006e5bdf60e04d92962
-SHA1: 5eb1a6d19aee61f1e2971ebcca26426bcd6a37fb
-SHA256: 423f4c9f0e6ced90a1ab7228693b6b26c860e4a7bf90640d9e2ffca122db0b22
+Size: 112686
+MD5sum: a44e15d4756f57ff58cb8db7c87cf727
+SHA1: 3f9223e70473bca3f68267e123b9b7c00bf4b7bc
+SHA256: 567cbe8857c303fdd563436be6fe479cdf2c5ea3b2762dd990c3da634900df12
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2125,10 +1546,10 @@ Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 146
 Depends: libc6 (>= 2.34), librga2, librockchip-mpp1
 Filename: dists/mantic-rockchip/main/binary-arm64/libv4l-rkmpp_1.6.0-1_arm64.deb
-Size: 43458
-MD5sum: e445e8789dec0c8899f9263ccf9b0fef
-SHA1: 4d78fe8db0e39fa6b3b0e2219f1c5766afcb93e6
-SHA256: 6cb62fc252f870cce8daeb40de0b2a0542e911583f11f144a5c03fb2d1d042b0
+Size: 43902
+MD5sum: eb42213b75c14e307ce367dbb41dd810
+SHA1: 8f3a7cb78684d7780b79672027223a224f46204b
+SHA256: f19d9b8ea8ef988fb26499c15680f4f5c15410a7e5ab8b1a5caca025e33e4f80
 Section: libs
 Priority: optional
 Homepage: https://github.com/JeffyCN/libv4l-rkmpp
@@ -2145,10 +1566,10 @@ Maintainer: Gregor Jasny <gjasny@googlemail.com>
 Installed-Size: 184
 Depends: libc6 (>= 2.17)
 Filename: dists/mantic-rockchip/main/binary-arm64/libv4l2rds0_1.24.1-3_arm64.deb
-Size: 83762
-MD5sum: fd8b7ef0811cd26776325418e5b0686d
-SHA1: 65d0498ca2201e818c692ff861e109f847ff98ed
-SHA256: 19c5a8ceb54236edc3a235f397f59e2685fc6129456ec9a1c81f335b19acb4ec
+Size: 83758
+MD5sum: d2c3d38cac8b89cfcc4194c41098a893
+SHA1: 6f93ada1cbbe18f8a74ebac5781fb4bc7b26eebc
+SHA256: 0dae3c0a6838a2f76ea1b92dd9268dec81db8ab84c6afbfafeb5819db5a08de1
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2169,9 +1590,9 @@ Installed-Size: 448
 Depends: libc6 (>= 2.38), libjpeg8 (>= 8c)
 Filename: dists/mantic-rockchip/main/binary-arm64/libv4lconvert0_1.24.1-3_arm64.deb
 Size: 152430
-MD5sum: d5235772681b91f430eec8f07384bdfc
-SHA1: 411b6c0b95df6d704f903ca42673262bb995c655
-SHA256: 4937062aa8dde48361ff27be5319364ed8f622d45f951671455711950c0e54f3
+MD5sum: 502b4917d7ae345b44845c3abc234917
+SHA1: 52fac9e3c6c2d21313c76b17a8ff914a394dbb7b
+SHA256: fce367229e57574673c66779405db70e4e74efb96d987cd72af7f5c0a68b81d9
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2220,6 +1641,23 @@ Description: Capture test utility for video4linux devices
  The qvidcap tool is used to test video4linux capture devices,
  either using a video device, a file, or over network.
  This application can also serve as a generic video/TV viewer application.
+
+Package: rockchip-mpp-demos
+Source: mpp
+Version: 1.0.4-1
+Architecture: arm64
+Maintainer: Herman Chen <herman.chen@rock-chips.com>
+Installed-Size: 1067
+Depends: librockchip-mpp1 (= 1.0.4-1), librockchip-vpu0 (= 1.0.4-1)
+Filename: dists/mantic-rockchip/main/binary-arm64/rockchip-mpp-demos_1.0.4-1_arm64.deb
+Size: 126394
+MD5sum: 60e44c671c16cff83795604264c8f258
+SHA1: 04aede431d9327620500e1605f39a2403f002953
+SHA256: 833d950a82f31df548167155cbd496c4f9af7148ac68fee682c75845f76cede7
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/mpp
+Description: Media Process Platform Demos
 
 Package: rockchip-multimedia-config
 Version: 1.0.0-3+mantic
