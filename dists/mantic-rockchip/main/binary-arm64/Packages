@@ -35,22 +35,6 @@ SHA256: 02d07841c588007e251172e4114cdecb56620275a9c2d38b3a682f015b616ed4
 Priority: optional
 Description: BuzzTV IPTV player
 
-Package: buzztv-dsw
-Version: 1.0.3-1
-Architecture: arm64
-Maintainer: Stan Vlasic <stan@buzztv.com>
-Installed-Size: 10
-Depends: weston
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-dsw_1.0.3-1_arm64.deb
-Size: 10264140
-MD5sum: cdb51f9aaebfd0285e4301fca597bc40
-SHA1: de26f4b6ff9e9364cbf8802ecd8c086f7d4b676e
-SHA256: c0f288bcf578ad58560fb84d918f57a27882dd5f59cce6ccadaff81e454ee243
-Section: utils
-Priority: optional
-Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-dsw
-Description: BuzzTV Device Setup Wizard
-
 Package: buzztv-ota-tools
 Version: 1.0.4-1
 Architecture: all
